@@ -232,7 +232,7 @@ Well, there were no type errors, so we didn't get any output in our console sinc
 But check again - we got some _file_ output instead.
 If we look in our current directory, we'll see a `hello.js` file next to `hello.ts`.
 That's the output from our `hello.ts` file after `tsc` _compiles_ or _transforms_ it into a plain JavaScript file.
-And if we check the contents, we'll see what TypeScript spits out after it processes a `.ts` file:
+And if we check the contents, we'll see what the TypeScript compiler spits out after it processes a `.ts` file:
 
 ```js
 // Greets the world.
